@@ -7,6 +7,7 @@ import winsound
 frequency = 2500
 duration = 1000
 
+
 def eyeAspectRatio(eye):
     A = dist.euclidean(eye[1], eye[5])
     B = dist.euclidean(eye[2], eye[4])
@@ -68,4 +69,3 @@ while True:
 
 cam.release()
 cv2.destroyAllWindows()
-
